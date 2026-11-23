@@ -1,0 +1,31 @@
+# --- Private: NEVER commit these ---
+# cookies give full access to your YouTube/Google account
+cookies*.txt
+*.cookies
+cookies/
+
+# --- Build output and local environment ---
+ytenv/
+venv/
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# --- Downloaded / large binaries (setup.command and package.command fetch them) ---
+deno
+ffmpeg
+ffprobe
+ffmpeg.exe
+ffprobe.exe
+
+# --- Release archives (attach them to a GitHub Release instead) ---
+*.zip
+
+# --- Local backups ---
+_old-slovak/
+
+# --- macOS ---
+.DS_Store
+icon.iconset/
