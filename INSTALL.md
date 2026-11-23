@@ -4,7 +4,7 @@ The app runs on Macs with an **M1 to M5** chip (Apple Silicon).
 Nothing else needs to be installed — ffmpeg and the JavaScript runtime are
 bundled inside.
 
-**Not sure which chip you have?** Click the Apple menu  → **About This Mac**.
+**Not sure which chip you have?** Click the Apple menu → **About This Mac**.
 If it says *Apple M1*, *M2*, *M3*, *M4* or *M5*, you are good to go.
 If it says *Intel*, this app will not run on your Mac.
 

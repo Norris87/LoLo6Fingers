@@ -1,0 +1,109 @@
+name: Something does not work
+description: A video will not download, the app will not start, re-encoding fails...
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this!
+        The more of the fields below you fill in, the faster the problem can be found.
+
+        **Never paste your `cookies.txt` or its contents here** — it gives access to your account.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        I pasted a YouTube link, chose "1080p H.264", clicked Download and got the error "..."
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Video link
+      description: The link you tried to download (only if it is public).
+      placeholder: https://www.youtube.com/watch?v=...
+
+  - type: input
+    id: app-version
+    attributes:
+      label: LoLo6Fingers version
+      description: Shown in the window title, e.g. "LoLo6Fingers 4.3".
+      placeholder: "4.3"
+    validations:
+      required: true
+
+  - type: input
+    id: ytdlp-version
+    attributes:
+      label: yt-dlp version
+      description: Shown in the status line right after launch, e.g. "yt-dlp 2026.10.26".
+      placeholder: "2026.10.26"
+
+  - type: dropdown
+    id: chip
+    attributes:
+      label: Mac chip
+      description: Apple menu → About This Mac.
+      options:
+        - M1
+        - M2
+        - M3
+        - M4
+        - M5
+        - Intel (not supported)
+        - I don't know
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description: Apple menu → About This Mac.
+      placeholder: "macOS 27.2"
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format / quality you chose
+      options:
+        - Automatic
+        - Best H.264 (MP4, for Premiere)
+        - 4K – re-encoded to H.264
+        - 4K original (VP9/AV1)
+        - 1080p H.264
+        - 720p H.264
+        - 480p H.264
+        - Re-encode to H.264
+        - Audio only (MP3)
+        - Not about downloading
+
+  - type: dropdown
+    id: login
+    attributes:
+      label: Login used
+      options:
+        - None
+        - Chrome login (profile)
+        - cookies.txt file
+        - I don't know
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Output of "What can be downloaded?"
+      description: |
+        Paste the link into the app, click **What can be downloaded?** and copy the whole window here.
+        This is the most useful part — it shows what YouTube really offers for the video.
+      render: text
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message
+      description: The full text of the error dialog, if there was one.
+      render: text

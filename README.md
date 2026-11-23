@@ -9,6 +9,13 @@
   Built on <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> and ffmpeg.
 </p>
 
+<p align="center">
+  <a href="https://github.com/Norris87/LoLo6Fingers/releases/latest"><img src="https://img.shields.io/github/v/release/Norris87/LoLo6Fingers?label=version" alt="Latest version"></a>
+  <a href="https://github.com/Norris87/LoLo6Fingers/releases"><img src="https://img.shields.io/github/downloads/Norris87/LoLo6Fingers/total?label=downloads" alt="Total downloads"></a>
+  <img src="https://img.shields.io/badge/macOS-Apple%20Silicon%20(M1%E2%80%93M5)-black" alt="macOS Apple Silicon">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Norris87/LoLo6Fingers" alt="License"></a>
+</p>
+
 ---
 
 ## Why another downloader?
@@ -71,6 +78,10 @@ chmod +x *.command
 3. **Storyboards only** → run `setup-potoken.command`, or `update.command` → nightly.
 4. **DRM** → cannot be downloaded, by design.
 5. Videos that worked before and suddenly stop → update yt-dlp. YouTube changes often.
+
+Still stuck? **[Report a problem](https://github.com/Norris87/LoLo6Fingers/issues/new/choose)** —
+the form asks for everything needed to help you. It works the other way too:
+if it runs well for you, a ⭐ on the repository is a nice way to say so.
 
 ## Project layout
 

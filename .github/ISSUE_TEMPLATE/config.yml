@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Installation guide
+    url: https://github.com/Norris87/LoLo6Fingers/blob/main/INSTALL.md
+    about: macOS says the app is "damaged" or "cannot be verified"? The fix is in step 4.
+  - name: Videos that need a login
+    url: https://github.com/Norris87/LoLo6Fingers/blob/main/COOKIES.md
+    about: Private, age-restricted or members-only videos — how to get a working cookies.txt.
