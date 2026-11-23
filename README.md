@@ -16,6 +16,10 @@
   <a href="LICENSE"><img src="https://img.shields.io/github/license/Norris87/LoLo6Fingers" alt="License"></a>
 </p>
 
+<p align="center">
+  <img src="docs/screenshot.png" width="700" alt="LoLo6Fingers main window">
+</p>
+
 ---
 
 ## Why another downloader?
